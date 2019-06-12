@@ -1,0 +1,23 @@
+$$Guide Hub v1.0$$
+
+#Objective: Course Compare
+
+#Workflow:
+1.) First Page
+	It will be the landing page for the user, it presents the list of fields. User will have to choose one of them and will be directed to the second page.
+2.) Second Page:
+	Here user will be provided with available courses in the respective field. Currently, we will be provinding only Udemy courses.
+	A filter point will be available like flipkart in the left bar of the screen.
+	A compare icon will be available in every course. When any compare option is clicked, A check box will be enabled to show user that user
+	wants to compare the particular course. It follows further and then, at the end Compare option is clicked and then user will be directed to third page,
+3.) Third Page:
+	This page will be divided in two sections giving users all the details available about the given course in a tabular format.
+
+#Resources:
+	Udemy API, JS Filtration
+#Layout:
+	First Page: Nav Bar, ListOfFields, Services,  Footer.
+	Second Page: Left Panel for filtration like Flipkart, Center Panel for Course Review. Third Panel will be dynamic and it will be available only when 
+		user clicks for compare option.
+	Third Page: Leave on Gaurav.
+
