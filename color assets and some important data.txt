@@ -1,0 +1,14 @@
+Color Hashes : 
+Base blue color : #3373ed
+Base white color : #ffffff
+Black color for contact icon : #000000
+Blue color while selecting fields : #3776f0
+Blue color while hovering : #b7cef9
+At bottom of landing page there are two lines one is dark blue than the original theme and other is lighter than the original theme 
+Darblue color is : #1752c3
+Light blue is : #4f7be9
+
+Font used : Catamaran 
+link : https://fonts.google.com/specimen/Catamaran?selection.family=Catamaran
+font on navbar :  Rimouski
+link : https://fonts.google.com/?query=Rimouski
