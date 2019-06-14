@@ -1,0 +1,211 @@
+/* importing fonts */
+@import url(//db.onlinewebfonts.com/c/85f15400a6893f11597bee797c020cc3?family=Rimouski);
+
+@font-face {font-family: "Rimouski";
+  src: url("//db.onlinewebfonts.com/t/85f15400a6893f11597bee797c020cc3.eot");
+  src: url("//db.onlinewebfonts.com/t/85f15400a6893f11597bee797c020cc3.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/85f15400a6893f11597bee797c020cc3.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/85f15400a6893f11597bee797c020cc3.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/85f15400a6893f11597bee797c020cc3.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/85f15400a6893f11597bee797c020cc3.svg#Rimouski") format("svg");
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+
+/* importing fonts */
+
+/* body */
+body{
+
+  color: #ffffff;
+
+}
+
+button{
+  border-radius: 50px;
+}
+
+
+.intro{
+  font-family: Catamaran !important;
+  font-weight: bold;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* body */
+
+/* navbar */
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  z-index: 1;
+  border-radius: 10px;
+  margin: 4px;
+  margin-bottom: 4px;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+  margin-bottom: -10px;
+}
+.nav-link:hover:before,
+.nav-link:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar{
+  background-color: #3373ed;
+  font-family:Rimouski;
+  margin: 0 !important;
+  color: #ffffff;
+}
+
+/* navbar */
+
+/* showcase section */
+
+#showcase{
+  background-color: #3373ed;
+}
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase img{
+  width:100%;
+  margin-left:60px;
+  margin-bottom: 15rem;
+}
+
+#showcase .showcase-right{
+  margin-top:90px;
+}
+
+.showcase-btn{
+  background-color: #ffffff;
+  color: #3373ed;
+}
+
+.showcase-btn:hover{
+  background-color: #ffffff;
+  color: #1752c3;
+}
+/* showcase section */
+
+/*cards section*/
+
+.card-img-top{
+height: 200px;
+width: 200px;
+}
+
+.card{
+  color: #1752c3;
+  border-radius: 30px;
+  margin: 2rem;
+  margin-top: -10rem;
+  height: 300px;
+  width: 290px;
+  background-color: #ffffff;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.card-text{
+  font-family:Catamaran;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #1752c3;
+}
+
+/*cards section*/
+
+/*fields section*/
+
+#field{
+  color: #1752c3;
+}
+
+#field h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#field img{
+  width:100%;
+  margin-left:60px;
+}
+
+#field .showcase-right1{
+  margin-top:150px;
+}
+
+#field .showcase-left1{
+  margin-top:150px;
+  margin-right: 100px;
+}
+
+/*fields section*/
+
+/*footer section*/
+
+ .footer{
+   margin-top: 150px;
+   padding: 40px;
+   padding-bottom: 0 !important;
+   margin-bottom: 0 !important;
+  height: 550px;
+  width: 100%;
+  color:#ffffff;
+  background-color: #3373ed;
+  font-family: Catamaran;
+  font-weight: 700;
+  font-size: 16px !important;
+}
+
+
+.footer-col{
+  margin-right: 150px;
+}
+
+.dark{
+  width: 100%;
+  border:  solid #1752c3;
+  margin-top: 0px;
+}
+
+.light{
+  width: 100%;
+  border: solid #4f7be9;
+  margin-top: 0px;
+}
+
+hr{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 0.1px;
+}
+
+.Copyright{
+  padding: 30px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+/*footer section*/
