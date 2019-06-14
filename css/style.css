@@ -16,9 +16,11 @@
 
 /* importing fonts */
 
+html, body {margin: 0; height: 100%;}
+
 /* body */
 body{
-
+  overflow-x: hidden;
   color: #ffffff;
 
 }
@@ -49,6 +51,10 @@ button{
   margin-bottom: 4px;
 }
 
+.icon-bar{
+  background: #ffffff;
+  color: #ffffff;
+}
 .nav-link:before {
   content: "";
   position: absolute;
@@ -101,6 +107,8 @@ button{
 .showcase-btn{
   background-color: #ffffff;
   color: #3373ed;
+  margin: 4px;
+  margin-bottom: 4px;
 }
 
 .showcase-btn:hover{
@@ -111,9 +119,13 @@ button{
 
 /*cards section*/
 
-.card-img-top{
-height: 200px;
-width: 200px;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110px;
+  height: 100px;
 }
 
 .card{
@@ -125,6 +137,7 @@ width: 200px;
   width: 290px;
   background-color: #ffffff;
   box-shadow: 5px 10px 8px #888888;
+  padding: 20px;
 }
 
 .card-text{
@@ -132,6 +145,8 @@ width: 200px;
   font-weight: bold;
   font-size: 1.75rem;
   color: #1752c3;
+  padding: 30px;
+  text-align: center;
 }
 
 /*cards section*/
@@ -170,7 +185,7 @@ width: 200px;
    padding: 40px;
    padding-bottom: 0 !important;
    margin-bottom: 0 !important;
-  height: 550px;
+  height: auto;
   width: 100%;
   color:#ffffff;
   background-color: #3373ed;
@@ -205,7 +220,68 @@ hr{
 
 .Copyright{
   padding: 30px;
-  margin-left: 50px;
   font-size: 12px;
+  text-align: right;
 }
 /*footer section*/
+
+
+@media only screen and (max-width: 760px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar-brand img{
+height: 30px;
+width: 100px;
+  }
+
+  footer img{
+   display: none;
+  }
+
+  #showcase img{
+    width:300px;
+    margin-left:60px;
+    margin-bottom: .5rem;
+  }
+
+  #showcase p{
+    font-size: 12px;
+  }
+
+  #showcase h1{
+    font-size:16px;
+  }
+  .card{
+    margin: auto;
+    margin-top: 70px;
+    height: 300px;
+    width: 290px;
+  }
+
+  .footer{
+   margin-top: 40px;
+   padding: 40px;
+   padding-bottom: 0 !important;
+   margin-bottom: 0 !important;
+  height:auto;
+  width: 100%;
+  font-size: 10px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+ 
+.Copyright{
+  padding: 30px;
+  margin-left: 50px;
+  font-size: 9px;
+}
+
+.footer-col{
+  margin-right: 0px;
+}
+}
