@@ -18,7 +18,7 @@ window.sr = ScrollReveal();
           delay: 2000,
           origin:'bottom'
         });
-        sr.reveal('.card', {
+        sr.reveal('.card-group', {
           duration: 2000,
           delay: 2000,
           origin:'bottom'
@@ -38,7 +38,10 @@ window.sr = ScrollReveal();
         });
 
         sr.reveal('.footer', {
-          duration: 2000,
+          duration: 1000,
           origin:'bottom',
-          delay:2000,
+          delay:1000,
         });
+
+
+        window.sr = new scrollReveal({ mobile: false })
