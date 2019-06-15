@@ -80,6 +80,7 @@ button{
   font-family:Rimouski;
   margin: 0 !important;
   color: #ffffff;
+  border-radius: 0px;
 }
 
 /* navbar */
