@@ -177,6 +177,85 @@ button{
   margin-right: 100px;
 }
 
+section.top_lists .lists ul .list-item a {
+  font-size: 14px;
+  color: #1752c3;
+  font-weight: 700;
+  border: 1px solid #1752c3;
+  border-radius: 50px;
+  padding: 6px 12px;
+  display: block;
+  text-decoration: none;
+}
+section.top_lists .lists ul .list-item {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.container, .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+section{
+  display: block;
+}
+.container, .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid :after, :before{
+  box-sizing: border-box;
+}
+section.top_lists .lists ul{
+  padding: 0;
+  list-style: none;
+}
+ul{
+  margin-bottom: 10px;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.text-center
+{
+  text-align: center !important;
+}
+a{
+  text-decoration: none;
+}
+.col-centered {
+  margin: 0 auto!important;
+  float: none!important;
+  display: block!important;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.list-item:hover{
+  background-color:#b7cef9;
+  text-decoration: none !important;
+  font-weight: bold;
+  border-radius: 50px;
+  transform: scale(1.25);
+}
+
+h2 section.top_lists{
+  font-family: 'Catamaran';
+}
+
+h2{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
 /*fields section*/
 
 /*footer section*/
