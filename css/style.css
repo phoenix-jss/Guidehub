@@ -179,11 +179,10 @@ button{
 
 section.top_lists .lists ul .list-item a {
   font-size: 14px;
-  color: #1752c3;
   font-weight: 700;
   border: 1px solid #1752c3;
   border-radius: 50px;
-  padding: 8px 12px;
+  padding: 9px 13px;
   display: block;
   text-decoration: none;
 }
@@ -227,6 +226,9 @@ ul{
 a{
   text-decoration: none;
 }
+.opt:hover{
+  color: #ffffff;
+}
 .col-centered {
   margin: 0 auto!important;
   float: none!important;
@@ -240,11 +242,14 @@ a{
 }
 
 .list-item:hover{
-  background-color:#b7cef9;
-  text-decoration: none !important;
+  background-color:#1752c3;
+  color: #ffffff !important;
   font-weight: bold;
-  border-radius: 50px;
-  transform: scale(1.25);
+  border-radius: 50px; 
+}
+
+li:hover{
+  color: #ffffff;
 }
 
 h2 section.top_lists{
