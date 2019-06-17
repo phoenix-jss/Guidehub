@@ -108,8 +108,11 @@ button{
 .showcase-btn{
   background-color: #ffffff;
   color: #3373ed;
-  margin: 4px;
-  margin-bottom: 4px;
+  border-radius: 40px;
+  padding-right: 25px !important;
+  padding-left: 25px !important;
+padding-top: 5px !important;
+padding-bottom: 5px !important;
 }
 
 .showcase-btn:hover{
@@ -127,6 +130,12 @@ button{
   margin-right: auto;
   width: 110px;
   height: 100px;
+}
+
+.card-group{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .card{
@@ -246,6 +255,7 @@ a{
   color: #ffffff !important;
   font-weight: bold;
   border-radius: 50px; 
+  -webkit-transition: background-color 0.8s;
 }
 
 li:hover{
@@ -368,5 +378,11 @@ width: 100px;
 
 .footer-col{
   margin-right: 0px;
+}
+
+.card-group{
+  display: flex;
+flex-direction: column;
+justify-content: center;
 }
 }
